@@ -8,7 +8,7 @@ final_minumum_temps = []
   element_index = 0
   minumum_element = 1000 
     while element_index < src[row_index].length do
-     if src[row_index][element_index] == src[row_index][element_index].min
+     if src[row_index][element_index].min 
       final_minumum_temps = src[row_index][element_index]
       end 
     element_index += 1 
