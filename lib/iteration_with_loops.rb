@@ -16,5 +16,5 @@ row_index = 0
     end 
   row_index += 1 
   end 
-  final_minumum_temps
+  p final_minumum_temps
 end
