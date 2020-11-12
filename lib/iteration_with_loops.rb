@@ -8,7 +8,7 @@ final_minumum_temps = []
   element_index = 0
   minimum_temperature = 1000
     while element_index < src[row_index].length do
-     if src[row_index][element_index][0] < minimum_temperature
+     if src[row_index][element_index] < minimum_temperature
       final_minumum_temps = src[row_index][element_index]
       end 
     element_index += 1 
