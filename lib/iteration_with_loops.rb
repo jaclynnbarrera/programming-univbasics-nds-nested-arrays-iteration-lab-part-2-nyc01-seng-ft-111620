@@ -13,6 +13,7 @@ final_minumum_temps = []
       end 
     element_index += 1 
     end 
+  final_minumum_temps << minimum_temperature  
   row_index += 1 
   end 
   final_minumum_temps
